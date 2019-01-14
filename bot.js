@@ -10,7 +10,7 @@ client.on('message', message => {
     	message.reply('pong');
     }
     if (message.content === 'Hallo') {
-    	message.reply('Wilkommen auf dem Chrisultra Discord du geile Schnitte, ich (Gott) wünsche dir viel Spaß auf dem Discord, bitte beachte die Regeln oder ich muss dich leider vernichten. Viel spaß.');
+    	message.reply('Willkommen auf dem Chrisultra Discord du geile Schnitte, ich (Gott) wünsche dir viel Spaß auf dem Discord, bitte beachte die Regeln oder ich muss dich leider vernichten.');
     
     }
 });
