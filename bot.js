@@ -13,6 +13,9 @@ client.on('message', message => {
     	message.reply('Willkommen auf dem Chrisultra Discord du geile Schnitte, ich (Gott) wünsche dir viel Spaß auf dem Discord, bitte beachte die Regeln oder ich muss dich leider vernichten.');
     
     }
+if (message.content === 'Regeln') {
+    	message.reply('Stop Bullying!!!');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
