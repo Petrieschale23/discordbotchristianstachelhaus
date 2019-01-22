@@ -30,6 +30,19 @@ client.on('message', message => {
      if (message.content === 'Gott') {
     	message.reply('Hallöchen');
     }
+ 
+    if (message.content === 'Regeln') {
+    	message.reply('1. Ihr verliert kein Wort über die #ChrisUltras'     
+                      '2. Ladet jeden ein'     
+                      '3. Ruft jmd "HALT, STOP!" heisst er Andreas'     
+                      '4. Kommentiert wird überall'     
+                      '5. Nur ein Kommentar/Video'     
+                      '6. Keine Hemden, keine Schuhe'     
+                      '7. Kommentare sind so lang, wie sie sein müssen'     
+                      '8. Wer neu ist, muss kommentieren');
+    }
+
+
 });
 
 // THIS  MUST  BE  THIS  WAY
