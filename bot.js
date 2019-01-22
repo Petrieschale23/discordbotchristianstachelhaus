@@ -22,13 +22,13 @@ client.on('message', message => {
     	message.reply('Salz');
     }
      if (message.content === 'Brammen') {
-    	message.reply('=B43');
+    	message.reply('B43');
     }
      if (message.content === 'Chris') {
-    	message.reply('=Hallöchen');
+    	message.reply('Hallöchen');
     }
      if (message.content === 'Gott') {
-    	message.reply('=Hallöchen');
+    	message.reply('Hallöchen');
     }
 });
 
