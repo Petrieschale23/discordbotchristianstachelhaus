@@ -12,7 +12,7 @@ client.on('message', message => {
     if (message.content === 'Hallo') {
     	message.reply('Willkommen auf dem Chrisultra Discord du geile Schnitte, ich (Gott) wünsche dir viel Spaß auf dem Discord, bitte beachte die Regeln oder ich muss dich leider vernichten.');
     
-   
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
