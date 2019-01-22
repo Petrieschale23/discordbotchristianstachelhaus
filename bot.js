@@ -24,7 +24,19 @@ client.on('message', message => {
                       '8. Wer neu ist, muss kommentieren');
     }
     if (message.content === 'Peter') {
-    	message.reply('=Fels');
+    	message.reply('Fels');
+    }
+     if (message.content === 'Jay') {
+    	message.reply('Salz');
+    }
+     if (message.content === 'Brammen') {
+    	message.reply('=B43');
+    }
+     if (message.content === 'Chris') {
+    	message.reply('=Hallöchen');
+    }
+     if (message.content === 'Gott') {
+    	message.reply('=Hallöchen');
     }
 });
 
