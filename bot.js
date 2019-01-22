@@ -31,28 +31,28 @@ client.on('message', message => {
     	message.reply('Hallöchen');
     }
  
-    if (message.content === 'Regeln') {
+    if (message.content === 'Regel1') {
     	message.reply('1. Ihr verliert kein Wort über die #ChrisUltras'     
                       }
-    if (message.content === 'Regeln') {
+    if (message.content === 'Regel2') {
     	message.reply('2. Ladet jeden ein'     
                       }
-     if (message.content === 'Regeln') {
+     if (message.content === 'Regel3') {
     	message.reply('3. Ruft jmd "HALT, STOP!" heisst er Andreas'     
                       }
-                       if (message.content === 'Regeln') {
+                       if (message.content === 'Regel4') {
     	message.reply('4. Kommentiert wird überall'     
                       }
-                       if (message.content === 'Regeln') {
+                       if (message.content === 'Regel5') {
     	message.reply('5. Nur ein Kommentar/Video'     
                       }
-                       if (message.content === 'Regeln') {
+                       if (message.content === 'Regel6') {
     	message.reply('6. Keine Hemden, keine Schuhe'     
                       }
-                       if (message.content === 'Regeln') {
+                       if (message.content === 'Regel7') {
     	message.reply('7. Kommentare sind so lang, wie sie sein müssen'     
                       }
-                       if (message.content === 'Regeln') {
+                       if (message.content === 'Regel8') {
     	message.reply('8. Wer neu ist, muss kommentieren');
     }
 
