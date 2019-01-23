@@ -30,6 +30,9 @@ client.on('message', message => {
      if (message.content === 'Gott') {
     	message.reply('Hallöchen');
     }
+     if (message.content === 'Niklas') {
+    	message.reply('Schwul!!!!!!!');
+    }
  
 
 });
