@@ -33,7 +33,9 @@ client.on('message', message => {
      if (message.content === 'Niklas') {
     	message.reply('Schwul!!!!!!!');
     }
- 
+ if (message.content === 'Leon') {
+    	message.reply('Göttlicher Pferdeschwanz!!!!!');
+    }
 
 });
 
