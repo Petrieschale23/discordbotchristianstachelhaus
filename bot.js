@@ -36,7 +36,14 @@ client.on('message', message => {
      if (message.content === 'Leon') {
     	message.reply('Göttlicher Pferdeschwanz!!!!!');
     }
+    if (message.content === 'Random') {
+    	Random wuerfel = new Random();
+		int augenZahl;
 
+		for (int i=0; i<10; i++){
+			augenZahl = 1 + wuerfel.nextInt(6);
+			System.out.println(augenZahl);
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
