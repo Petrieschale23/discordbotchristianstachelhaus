@@ -36,7 +36,9 @@ client.on('message', message => {
      if (message.content === 'Leon') {
     	message.reply('Göttlicher Pferdeschwanz!!!!!');
     }
-    if (message.content === 'Random') {
+   });
+	client.on('message', () => {
+	if (message.content === 'Random') {
     	Random wuerfel = new Random();
 		int augenZahl;
 
