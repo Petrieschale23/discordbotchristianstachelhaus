@@ -36,7 +36,7 @@ client.on('message', message => {
      if (message.content === 'Leon') {
     	message.reply('Göttlicher Pferdeschwanz!!!!!');
     }
-    if (message.content === 'what is my avatar') {
+    if (message.content === 'Avatar') {
         message.reply(message.author.displayAvatarURL());
     }
     });
