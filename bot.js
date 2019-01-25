@@ -36,7 +36,10 @@ client.on('message', message => {
      if (message.content === 'Leon') {
     	message.reply('Göttlicher Pferdeschwanz!!!!!');
     }
-   });
+    if (message.content === 'what is my avatar') {
+        message.reply(message.author.displayAvatarURL());
+    }
+    });
    
    client.on('guildMemberAdd', member => {
    const channel = member.guild.channels.find(ch => ch.name === 'member-log');
@@ -44,11 +47,8 @@ client.on('message', message => {
    channel.send(`Welcome to the server, ${member}`);
    });
    
-   client.on('message', message => {
-   if (message.content === 'what is my avatar') {
-   message.reply(message.author.displayAvatarURL());
-   }
-   });
+
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
