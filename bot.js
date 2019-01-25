@@ -37,16 +37,12 @@ client.on('message', message => {
     	message.reply('Göttlicher Pferdeschwanz!!!!!');
     }
    });
-	client.on('message', message => {
-	if (message.content === 'Random') {
-    	Random wuerfel = new Random();
-		int augenZahl;
-
-		for (int i=0; i<10; i++){
-			augenZahl = 1 + wuerfel.nextInt(6);
-			message.channel.send(augenZahl);
-    }
-});
+   
+   client.on('guildMemberAdd', member => {
+   const channel = member.guild.channels.find(ch => ch.name === 'member-log');
+   if (!channel) return;
+   channel.send(`Welcome to the server, ${member}`);
+   });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
