@@ -44,7 +44,7 @@ client.on('message', message => {
 
 		for (int i=0; i<10; i++){
 			augenZahl = 1 + wuerfel.nextInt(6);
-			System.out.println(augenZahl);
+			message.reply(augenZahl);
     }
 });
 
