@@ -39,7 +39,13 @@ client.on('message', message => {
     if (message.content === 'Avatar') {
         message.reply(message.author.displayAvatarURL());
     }
-    });
+    if (message.content === 'wie gehts') {
+    	message.reply('gut, dir?');
+    }
+    if (message.content === 'sehr gut') {
+    	message.reply('das freut mich doch du süßer');
+    } 
+});
    
    client.on('guildMemberAdd', member => {
    const channel = member.guild.channels.find(ch => ch.name === 'member-log');
