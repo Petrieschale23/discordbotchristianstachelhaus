@@ -48,11 +48,16 @@ client.on('message', message => {
 if (message.content === 'sex mit kleinen kindern') {
     	message.reply('AJAJAJAJAJAJAJAJAJAAJJEEEEEEEEEEEEEEEEEEEEEE');
     }
-if (message.content === 'Frau Löser) {
+if (message.content === 'Frau Löser') {
     	message.reply('schmemscht!!!');
     }
-
-  });
+if (message.content === 'Frau Schubert') {
+    	message.reply('schmescht nicht!!!');
+    }
+ if (message.content === 'Hi') {
+    	message.reply('Arschaids!!!!!!!');
+    }
+});
    
    client.on('guildMemberAdd', member => {
    const channel = member.guild.channels.find(ch => ch.name === 'member-log');
