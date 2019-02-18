@@ -63,8 +63,7 @@ if (message.content === 'Ey Fotze') {
 if (message.content === 'Finch Asozial') {
     	message.reply('auf Weiberjagd!!!');
     }
-if (message.content === 'MDMA') {
-     message.reply('MDMA steht für die chirale chemische Verbindung 3,4-Methylendioxy-N-methylamphetamin. Es gehört strukturell zur Gruppe der Methylendioxyamphetamine und ist insbesondere weltweit verbreitete als Droge um Rentnerinnen klar zu machen.');
+
 });
    
    client.on('guildMemberAdd', member => {
