@@ -45,6 +45,9 @@ client.on('message', message => {
     if (message.content === 'sehr gut') {
     	message.reply('das freut mich doch du süßer');
     } 
+if (message.content === 'sex mit kleinen kindern') {
+    	message.reply('AJAJAJAJAJAJAJAJAJAAJJEEEEEEEEEEEEEEEEEEEEEE');
+    }
 });
    
    client.on('guildMemberAdd', member => {
